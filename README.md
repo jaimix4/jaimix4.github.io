@@ -1,6 +1,6 @@
-# My Personal Portfolio
+# ma-website
 
-This repository contains the source code and assets for my personal website.
+This repo contains the code and some initial media for ma-website. more to come soon. under construction ;`)`  
 
 ## License
 
