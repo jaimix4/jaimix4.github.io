@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    
+    <!-- AI Scraper Blocking -->
+    <meta name="robots" content="noai, noimageai">
+    
+    <!-- p5.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    
+    <style>
+        body {
+            background-color: #111;
+            color: #eee;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        #sketch-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Under construction.</h1>
+    <div id="sketch-container"></div>
+
+    <script>
+        // Simple p5.js placeholder animation
+        function setup() {
+            let canvas = createCanvas(400, 400);
+            canvas.parent('sketch-container');
+        }
+
+        function draw() {
+            background(17);
+            fill(238);
+            noStroke();
+            ellipse(mouseX, mouseY, 50, 50);
+        }
+    </script>
+</body>
+</html>
